@@ -1,0 +1,51 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.jumbotron {
+  padding-top: 80px !important;
+  background-color: blueviolet !important;
+  color: white;
+}
+.footer {
+  background-color: rgba(255, 0, 255, 0.3);
+  color: black;
+  padding: 50px 0;
+}
+.navbar-dark {
+  background-color: rgba(255, 0, 255, 1);
+}
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.carousel {
+  background: #512da8;
+  align-self: start;
+}
+.carousel-item {
+  height: 300px;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+  }
+}
+.carousel-caption {
+  bottom: 60px !important;
+}
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.modal-header {
+  background-color: rgba(255, 0, 255, 1);
+  color: white;
+}
+.modal-body {
+  background-color: rgba(255, 0, 255, 0.1);
+  color: black;
+}
